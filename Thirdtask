@@ -1,0 +1,5 @@
+c = int(input('Введите семь номеров через пробел: '))
+while r in c%2 =0:
+    print('All numbers are even')
+else:
+    print('No')

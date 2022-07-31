@@ -1,0 +1,8 @@
+list =['Bear','Milk','Egg','Egg','Egg','Egg']
+index = 1
+while index < len(list):
+    if list[index] in list[:index]:
+        list.pop(index)
+    else:
+        index += 1
+print(list)
